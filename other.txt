@@ -1,0 +1,25 @@
+<!-- the footer has my email and phone number, has character encodes to add special characters before and after the number and emial -->
+        <li id="one" class="this">&phone;<a href="tel:16239009087">623-900-9087</a>&phone;</li>
+        <li id="two" class="this">&#8864;<a href="mailto:TAdcox009@west-mec.org">TAdcox009@west-mec.org</a>&#8864;</li>
+
+         /* the footer list items will be displayed inline and have have a text color of dark cyan */
+   footer li {
+       display: inline;
+       color: darkcyan;
+    }
+
+    /* the background color for the fotter is black and the text is being centered */
+    footer {
+        background-color: black;
+        text-align: center;
+    }
+
+      /* the element with the id of one has 200 pixels of padding to the right */
+   #one {
+    padding-right: 200px;
+   }
+
+    /* the element with the id of two has 20 pixels of padding to the left */
+   #two {
+       padding-left: 20px;
+   }
